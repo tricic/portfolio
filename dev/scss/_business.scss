@@ -1,0 +1,51 @@
+#business {
+    background-color: $business-bg-color;
+
+    @media screen and (max-width: $md - 1) {
+        padding-bottom: 20px;
+    }
+
+    .big-icon {
+        text-align: center;
+        padding-top: 100px;
+
+        i {
+            font-size: 200px;
+        }
+    }
+
+    .infos {
+        h2 {
+            @media screen and (max-width: $lg - 1) {
+                padding-top: 50px;
+            }
+        }
+
+        // What do I offer paragraph
+        p {
+            padding-left: 20px;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        // Checkboxes
+        .fa-check-square-o {
+            margin-right: 10px;
+        }
+
+        // Why choose me list
+        ul {
+            padding-left: 20px;
+            margin: 0px;
+
+            @media screen and (max-width: $lg - 1) {
+                padding-bottom: 20px;
+            }
+        }
+
+        ul li {
+            list-style: none;
+            font-size: 20px;
+        }
+    }
+}

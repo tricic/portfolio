@@ -1,0 +1,66 @@
+#contact {
+    background: url($images-path + 'hero.png') center center no-repeat;
+    padding-bottom: 40px;
+
+    @media screen and (max-width: $lg - 1) {
+        h2 {
+            padding-top: 30px;
+        }
+    }
+
+    @media screen and (min-width: 1921px) {
+        background-size: 100%;
+    }
+
+    form {
+        padding-left: 20px;
+
+        ::-webkit-input-placeholder { /* Chrome */
+            color: $contact-placeholder-color;
+            font-weight: 100;
+        }
+        :-ms-input-placeholder { /* IE 10+ */
+            color: $contact-placeholder-color;
+            font-weight: 100;
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+            color: $contact-placeholder-color;
+            opacity: 1;
+            font-weight: 100;
+        }
+        :-moz-placeholder { /* Firefox 4 - 18 */
+            color: $contact-placeholder-color;
+            opacity: 1;
+            font-weight: 100;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            background-color: transparent;
+            border-color: white;
+            border-width: 3px;
+            color: white;
+            font-weight: bold;
+        }
+
+        input[type=submit]:hover {
+            cursor: pointer;
+
+            &:hover {
+                background-color: $contact-button-hover-color;
+            }
+        }
+    }
+
+    .big-icon {
+        text-align: center;
+        padding-top: 100px;
+
+        i {
+            font-size: 200px;
+        }
+    }
+}

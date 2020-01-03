@@ -1,0 +1,65 @@
+// Grid breakpoints
+    $xs: 0; // Extra small screen / phone
+    $sm: 576px; // Small screen / phone
+    $md: 768px; // Medium screen / tablet
+    $lg: 992px; // Large screen / desktop
+    $xl: 1200px; // Extra large screen / wide desktop
+
+// Colors
+    $body-bg-color: #34495e;
+    $navigation-bg-color: #674172;
+    $navigation-hover-color: #754b82;
+    $logo-suffix-color: lightgray;
+    $business-bg-color: #1B7544;
+    $contact-placeholder-color: lightgray;
+    $contact-button-hover-color: #34495e;
+    $footer-bg-color: #674172;
+
+// Paths
+    $images-path: '/images/';
+
+// Global settings
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        background-color: $body-bg-color;
+
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .frame {
+        text-align: center;
+
+        @media screen and (max-width: 530px) {
+            position: relative;
+
+            img {
+                position: relative;
+                top: -5px;
+            }
+        }
+
+        @media screen and (min-width: 1921px) {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+// Sections css
+    @import "navigation.scss";
+    @import "hero.scss";
+    @import "about-me.scss";
+    @import "business.scss";
+    @import "contact.scss";
+    @import "footer.scss";

@@ -1,0 +1,214 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: #34495e;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold; }
+
+.frame {
+  text-align: center; }
+  @media screen and (max-width: 530px) {
+    .frame {
+      position: relative; }
+      .frame img {
+        position: relative;
+        top: -5px; } }
+  @media screen and (min-width: 1921px) {
+    .frame img {
+      width: 100%; } }
+
+nav.navbar {
+  font-family: 'Russo One', sans-serif;
+  background-color: #674172;
+  padding: 0px; }
+  nav.navbar .navbar-toggler {
+    position: unset;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    border-color: white !important; }
+    nav.navbar .navbar-toggler .hamburger {
+      font-size: 30px; }
+  nav.navbar .navbar-brand {
+    padding: 0px; }
+    nav.navbar .navbar-brand #logo {
+      font-size: 40px; }
+      nav.navbar .navbar-brand #logo span {
+        color: lightgray;
+        margin-left: 2px; }
+  nav.navbar #nav-menu ul li {
+    font-size: 25px; }
+    nav.navbar #nav-menu ul li:hover {
+      background-color: #754b82; }
+    @media screen and (max-width: 991px) {
+      nav.navbar #nav-menu ul li {
+        padding-left: 20px; } }
+
+#hero {
+  background: center bottom no-repeat;
+  background-image: url("images/hero.png"); }
+  @media screen and (min-width: 1921px) {
+    #hero {
+      background-size: 100%; } }
+  #hero .container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center; }
+    @media screen and (max-width: 767px) {
+      #hero .container {
+        padding-top: 150px;
+        padding-bottom: 100px; } }
+  #hero h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    color: lightgray;
+    border-bottom: 1px solid gray; }
+    @media screen and (max-width: 767px) {
+      #hero h1 {
+        font-size: 45px; } }
+  #hero p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px; }
+    @media screen and (max-width: 767px) {
+      #hero p {
+        font-size: 20px; } }
+    #hero p span {
+      margin-left: 2px; }
+
+#about {
+  padding-top: 50px;
+  color: lightgray; }
+  @media screen and (max-width: 767px) {
+    #about {
+      padding-bottom: 20px; } }
+  #about #info {
+    padding-bottom: 30px; }
+    #about #info #profile-image img {
+      max-width: 200px; }
+    #about #info p {
+      font-family: 'Indie Flower', cursive;
+      font-size: 23px; }
+  #about #skills {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-top: 1px solid gray; }
+    #about #skills h2 {
+      margin-bottom: 25px; }
+    #about #skills .skill-icon {
+      font-size: 70px;
+      margin-left: 15px;
+      margin-right: 15px;
+      cursor: pointer; }
+      #about #skills .skill-icon:hover {
+        color: white; }
+      @media screen and (min-width: 352px) and (max-width: 575px) {
+        #about #skills .skill-icon {
+          margin-left: 40px;
+          margin-right: 40px; } }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        #about #skills .skill-icon {
+          margin-left: 30px;
+          margin-right: 30px; } }
+    #about #skills .skills-breaker {
+      display: block;
+      content: "";
+      line-height: 22px;
+      margin-top: 30px; }
+
+#business {
+  background-color: #1B7544; }
+  @media screen and (max-width: 767px) {
+    #business {
+      padding-bottom: 20px; } }
+  #business .big-icon {
+    text-align: center;
+    padding-top: 100px; }
+    #business .big-icon i {
+      font-size: 200px; }
+  @media screen and (max-width: 991px) {
+    #business .infos h2 {
+      padding-top: 50px; } }
+  #business .infos p {
+    padding-left: 20px;
+    font-size: 18px;
+    margin-bottom: 30px; }
+  #business .infos .fa-check-square-o {
+    margin-right: 10px; }
+  #business .infos ul {
+    padding-left: 20px;
+    margin: 0px; }
+    @media screen and (max-width: 991px) {
+      #business .infos ul {
+        padding-bottom: 20px; } }
+  #business .infos ul li {
+    list-style: none;
+    font-size: 20px; }
+
+#contact {
+  background: url("/images/hero.png") center center no-repeat;
+  padding-bottom: 40px; }
+  @media screen and (max-width: 991px) {
+    #contact h2 {
+      padding-top: 30px; } }
+  @media screen and (min-width: 1921px) {
+    #contact {
+      background-size: 100%; } }
+  #contact form {
+    padding-left: 20px; }
+    #contact form ::-webkit-input-placeholder {
+      /* Chrome */
+      color: lightgray;
+      font-weight: 100; }
+    #contact form :-ms-input-placeholder {
+      /* IE 10+ */
+      color: lightgray;
+      font-weight: 100; }
+    #contact form ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: lightgray;
+      opacity: 1;
+      font-weight: 100; }
+    #contact form :-moz-placeholder {
+      /* Firefox 4 - 18 */
+      color: lightgray;
+      opacity: 1;
+      font-weight: 100; }
+    #contact form label {
+      font-weight: bold; }
+    #contact form input, #contact form textarea {
+      background-color: transparent;
+      border-color: white;
+      border-width: 3px;
+      color: white;
+      font-weight: bold; }
+    #contact form input[type=submit]:hover {
+      cursor: pointer; }
+      #contact form input[type=submit]:hover:hover {
+        background-color: #34495e; }
+  #contact .big-icon {
+    text-align: center;
+    padding-top: 100px; }
+    #contact .big-icon i {
+      font-size: 200px; }
+
+#footer {
+  background-color: #674172;
+  color: lightgray;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  -webkit-box-shadow: inset 0px 10px 30px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: inset 0px 10px 30px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0px 10px 30px 0px rgba(0, 0, 0, 0.8); }
+  #footer a {
+    color: white; }
+    #footer a:hover {
+      color: white; }

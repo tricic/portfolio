@@ -1,0 +1,43 @@
+#hero {
+    background: center bottom no-repeat;
+    background-image: url($images-path + 'hero.png');
+    
+    @media screen and (min-width: 1921px) {
+        background-size: 100%;
+    }
+
+    .container {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        text-align: center;
+
+        @media screen and (max-width: $md - 1) {
+            padding-top: 150px;
+            padding-bottom: 100px;
+        }
+    }
+
+    h1 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 50px;
+        color: lightgray;
+        border-bottom: 1px solid gray;
+
+        @media screen and (max-width: $md - 1) {
+            font-size: 45px;
+        }
+    }
+
+    p {
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+
+        @media screen and (max-width: $md - 1) {
+            font-size: 20px;
+        }
+
+        span {
+            margin-left: 2px;
+        }
+    }
+}
