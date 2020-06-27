@@ -1,46 +1,19 @@
-nav.navbar {
+#navbar {
     font-family: 'Russo One', sans-serif;
     background-color: $navigation-bg-color;
     padding: 0px;
 
-    // Toggler button
-    .navbar-toggler {
-        position: unset;
-        float: right;
-        margin-top: 10px;
-        cursor: pointer;
-        border-color: white !important;
-
-        .hamburger {
-            font-size: 30px;
-        }
-    }
-
-    // Logo
     .navbar-brand {
-        padding: 0px;
-
-        #logo {
-            font-size: 40px;
-
-            // dev suffix in logo
-            span {
-                color: $logo-suffix-color;
-                margin-left: 2px;
-            }
-        }
+        font-size: 1.8rem;
     }
 
-    // Menu list
-    #nav-menu ul li {
-        font-size: 25px;
-
+    .nav-item {
         &:hover {
             background-color: $navigation-hover-color;
         }
+    }
 
-        @media screen and (max-width: $lg - 1) {
-            padding-left: 20px;
-        }
+    .nav-link {
+        font-size: 1.2rem;
     }
 }

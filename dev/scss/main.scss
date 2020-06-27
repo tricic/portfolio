@@ -1,65 +1,52 @@
 // Grid breakpoints
-    $xs: 0; // Extra small screen / phone
-    $sm: 576px; // Small screen / phone
-    $md: 768px; // Medium screen / tablet
-    $lg: 992px; // Large screen / desktop
-    $xl: 1200px; // Extra large screen / wide desktop
+$xs: 0; // Extra small screen / phone
+$sm: 576px; // Small screen / phone
+$md: 768px; // Medium screen / tablet
+$lg: 992px; // Large screen / desktop
+$xl: 1200px; // Extra large screen / wide desktop
 
 // Colors
-    $body-bg-color: #34495e;
-    $navigation-bg-color: #674172;
-    $navigation-hover-color: #754b82;
-    $logo-suffix-color: lightgray;
-    $business-bg-color: #1B7544;
-    $contact-placeholder-color: lightgray;
-    $contact-button-hover-color: #34495e;
-    $footer-bg-color: #674172;
+$body-bg-color: #34495e;
+$navigation-bg-color: #674172;
+$navigation-hover-color: #754b82;
+$about-bg-color: $body-bg-color;
+$skills-bg-color: #4B6946;
+$work-bg-color: #3b6a92;
+$contact-placeholder-color: lightgray;
+$contact-button-hover-color: #34495e;
+$footer-bg-color: #674172;
+$quote1-bg-color: sienna;
+$quote2-bg-color: #c0392b;
+$quote3-bg-color: #7E4C2B;
 
 // Paths
-    $images-path: '/images/';
+$images-path: 'images/';
 
-// Global settings
-    body {
-        font-family: 'Open Sans', sans-serif;
-        color: white;
-        background-color: $body-bg-color;
+html {
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
 
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
+body {
+    background-color: $body-bg-color;
+    color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+}
 
-    h2 {
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: bold;
-    }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Russo One', 'Open Sans', sans-serif;
+}
 
-    .frame {
-        text-align: center;
+.heading-number {
+    font-size: 0.8em;
+}
 
-        @media screen and (max-width: 530px) {
-            position: relative;
-
-            img {
-                position: relative;
-                top: -5px;
-            }
-        }
-
-        @media screen and (min-width: 1921px) {
-            img {
-                width: 100%;
-            }
-        }
-    }
-
-// Sections css
-    @import "navigation.scss";
-    @import "hero.scss";
-    @import "about-me.scss";
-    @import "business.scss";
-    @import "contact.scss";
-    @import "footer.scss";
+@import "about";
+@import "contact";
+@import "footer";
+@import "hero";
+@import "navigation";
+@import "quotes";
+@import "skills";
+@import "utils";
+@import "work";

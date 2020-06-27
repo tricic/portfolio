@@ -1,0 +1,17 @@
+#skills {
+    background-color: $skills-bg-color;
+
+    i {
+        font-size: 50px;
+        margin: 10px;
+    }
+
+    #skills-icons {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}

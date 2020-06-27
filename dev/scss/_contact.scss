@@ -1,20 +1,11 @@
 #contact {
-    background: url($images-path + 'hero.png') center center no-repeat;
-    padding-bottom: 40px;
+    background: url($images-path + 'hero.jpg') center center no-repeat;
 
-    @media screen and (max-width: $lg - 1) {
-        h2 {
-            padding-top: 30px;
-        }
-    }
-
-    @media screen and (min-width: 1921px) {
-        background-size: 100%;
+    i {
+        font-size: 200px;
     }
 
     form {
-        padding-left: 20px;
-
         ::-webkit-input-placeholder { /* Chrome */
             color: $contact-placeholder-color;
             font-weight: 100;
@@ -52,15 +43,6 @@
             &:hover {
                 background-color: $contact-button-hover-color;
             }
-        }
-    }
-
-    .big-icon {
-        text-align: center;
-        padding-top: 100px;
-
-        i {
-            font-size: 200px;
         }
     }
 }

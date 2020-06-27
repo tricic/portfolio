@@ -1,0 +1,20 @@
+.quote {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 1.2rem;
+
+    q {
+        font-style: italic;
+    }
+}
+
+#quote1 {
+    background-color: $quote1-bg-color;
+}
+
+#quote2 {
+    background-color: $quote2-bg-color;
+}
+
+#quote3 {
+    background-color: $quote3-bg-color;
+}
