@@ -117,7 +117,7 @@
     <!-- My Skills -->
     <section id="skills">
         <div class="container py-5">
-            <h2><span class="heading-number">02.</span> My Skills</h2>
+            <h2 class="mb-4"><span class="heading-number">02.</span> My Skills</h2>
             <div class="row">
                 <!-- Text -->
                 <div class="col-lg-6">
@@ -182,29 +182,36 @@
                 <span class="heading-number">03.</span> Some Things I've Built
             </h2>
             
+            <!-- Platni nalog -->
             <span id="platni-nalog"></span>
-
-            <div class="row">
+            <div class="project row">
                 <div class="project-image col-lg-6">
                     <a data-fancybox="platni-nalog-gallery" data-caption="The main window" href="images/projects/platni-nalog.jpg">
                         <img src="images/projects/platni-nalog.jpg" alt="Platni Nalog" class="rounded shadow-bl">
                     </a>
                 </div>
+
                 <div class="project-info col-lg-6">
                     <h3 class="project-title">Platni Nalog</h3>
                     <div class="project-type">― Desktop application</div>
+                    <div class="project-tech">
+                        <span class="badge badge-warning">Visual Studio</span>
+                        <span class="badge badge-warning">C#</span>
+                        <span class="badge badge-warning">.NET</span>
+                        <span class="badge badge-warning">WinForms</span>
+                        <span class="badge badge-warning">SQLite</span>
+                    </div>
                     <p class="project-description">
                         A business application used to fill, store and print a company's payment forms.
                         It contains a database for storing customers, bank accounts, payment form templates and more.
                         The application is suitable for accounting businesses.
                     </p>
-                    <p class="project-tech">Built with: Visual&nbsp;Studio, C#, .NET&nbsp;Framework&nbsp;4.8, WinForms, SQLite</p>
                 </div>
             </div>
 
-            <hr id="yummi">
-
-            <div class="row">
+            <!-- Yummi -->
+            <hr id="yummi" class="project-seperator">
+            <div class="project row">
                 <div class="project-image col-lg-6">
                     <a data-fancybox="yummi-gallery" data-caption="The menu with shopping cart" href="images/projects/yummi-1.jpg">
                         <img src="images/projects/yummi-1.jpg" alt="Yummi project" class="rounded shadow-bl">
@@ -216,23 +223,30 @@
                         <img src="images/projects/yummi-3.jpg" alt="Yummi project" class="rounded shadow-bl">
                     </a>
                 </div>
+
                 <div class="project-info col-lg-6">
                     <h3 class="project-title">Yummi</h3>
                     <div class="project-type">― Web application</div>
+                    <div class="project-tech">
+                        <span class="badge badge-warning">Laravel</span>
+                        <span class="badge badge-warning">Bootstrap</span>
+                        <span class="badge badge-warning">jQuery</span>
+                    </div>
                     <p class="project-description">
                         Yummi is a pizza ordering system.
                         <br>
                         Some features: Registration / Login, Menu with items of different sizes, Item search, Shopping cart, Ordering system, Order history (requires login)
                     </p>
-                    <p class="project-tech">Built with: Laravel, Bootstrap, jQuery</p>
-                    <a href="https://github.com/tricic/Yummi" target="_blank" class="btn btn-outline-warning">Source</a>
-                    <a href="https://tricic-yummi.herokuapp.com/" target="_blank" class="btn btn-outline-warning">Demo</a>
+                    <div class="project-links">
+                        <a href="https://github.com/tricic/Yummi" target="_blank" class="btn btn-outline-warning">Source</a>
+                        <a href="https://tricic-yummi.herokuapp.com/" target="_blank" class="btn btn-outline-warning">Demo</a>
+                    </div>
                 </div>
             </div>
 
-            <hr id="prijava-ispita">
-
-            <div class="row">
+            <!-- Prijava ispita -->
+            <hr id="prijava-ispita" class="project-seperator">
+            <div class="project row">
                 <div class="project-image col-lg-6">
                     <a data-fancybox="prijava-ispita-gallery" data-caption="Exam list" href="images/projects/prijava-ispita-1.jpg">
                         <img src="images/projects/prijava-ispita-1.jpg" alt="Prijava ispita project" class="rounded shadow-bl">
@@ -244,80 +258,110 @@
                         <img src="images/projects/prijava-ispita-3.jpg" alt="Prijava ispita project" class="rounded shadow-bl">
                     </a>
                 </div>
+
                 <div class="project-info col-lg-6">
                     <h3 class="project-title">Prijava ispita</h3>
                     <div class="project-type">― Web application</div>
+                    <div class="project-tech">
+                        <span class="badge badge-warning">PHP</span>
+                        <span class="badge badge-warning">SQLite</span>
+                        <span class="badge badge-warning">JavaScript</span>
+                        <span class="badge badge-warning">Bootstrap</span>
+                    </div>
                     <p class="project-description">
                         Prijava ispita is an exam registration system.
                         <br>
                         Some features: Registration / login, user roles and authorization, exam CRUD, exam registration, request validations
                     </p>
-                    <p class="project-tech">Built with: PHP, SQLite, JS, Bootstrap</p>
-                    <a href="https://github.com/tricic/Prijava-ispita" target="_blank" class="btn btn-outline-warning">Source</a>
-                    <a href="https://mr-tricic.000webhostapp.com/Prijava-ispita/" target="_blank" class="btn btn-outline-warning">Demo</a>
+                    <div class="project-links">
+                        <a href="https://github.com/tricic/Prijava-ispita" target="_blank" class="btn btn-outline-warning">Source</a>
+                        <a href="https://mr-tricic.000webhostapp.com/Prijava-ispita/" target="_blank" class="btn btn-outline-warning">Demo</a>
+                    </div>
                 </div>
             </div>
 
-            <hr id="spaceship-battle">
-
-            <div class="row">
+            <!-- Spaceship battle -->
+            <hr id="spaceship-battle" class="project-seperator">
+            <div class="project row">
                 <div class="project-image col-lg-6">
                     <a data-fancybox="spaceship-battle-gallery" data-caption="Gameplay" href="images/projects/spaceship-battle.jpg">
                         <img src="images/projects/spaceship-battle.jpg" alt="Spaceship Battle project" class="rounded shadow-br">
                     </a>
                 </div>
+                
                 <div class="project-info col-lg-6">
                     <h3 class="project-title">Spaceship Battle</h3>
                     <div class="project-type">― Desktop application</div>
+                    <div class="project-tech">
+                        <span class="badge badge-warning">C++</span>
+                        <span class="badge badge-warning">Qt Creator</span>
+                        <span class="badge badge-warning">Qt Framework</span>
+                        <span class="badge badge-warning">Qt Widgets</span>
+                    </div>
                     <p class="project-description">
                         A mini game created using Qt widgets.
                         The player shoots asteroids with his rocket and gets a score point on hit.
                         The game ends when asteroids hit the rocket three times.
                     </p>
-                    <p class="project-tech">Built with: C++, Qt&nbsp;Creator, Qt&nbsp;Framework, Qt&nbsp;Widgets</p>
-                    <a href="https://github.com/tricic/Cpp-Qt-Mini-Game" target="_blank" class="btn btn-outline-warning">Source</a>
+                    <div class="project-links">
+                        <a href="https://github.com/tricic/Cpp-Qt-Mini-Game" target="_blank" class="btn btn-outline-warning">Source</a>
+                    </div>
                 </div>
             </div>
 
-            <hr id="tricic-website">
-
-            <div class="row">
+            <!-- Tricic -->
+            <hr id="tricic" class="project-seperator">
+            <div class="project row">
                 <div class="project-image col-lg-6">
                     <a data-fancybox="tricic-gallery" data-caption="Home page" href="images/projects/tricic.jpg">
                         <img src="images/projects/tricic.jpg" alt="Tricic project" class="rounded shadow-br">
                     </a>
                 </div>
+
                 <div class="project-info col-lg-6">
                     <h3 class="project-title">Tricic.net</h3>
                     <div class="project-type">― Website</div>
+                    <div class="project-tech">
+                        <span class="badge badge-warning">HTML</span>
+                        <span class="badge badge-warning">SCSS</span>
+                        <span class="badge badge-warning">Bootstrap</span>
+                    </div>
                     <p class="project-description">A personal/portfolio website with contact form.</p>
-                    <p class="project-tech">Built with: HTML, SCSS, Bootstrap </p>
-                    <a href="https://github.com/tricic/portfolio" target="_blank" class="btn btn-outline-warning">Source</a>
-                    <a href="http://tricic.net/" target="_blank" class="btn btn-outline-warning">Live</a>
+                    <div class="project-links">
+                        <a href="https://github.com/tricic/portfolio" target="_blank" class="btn btn-outline-warning">Source</a>
+                        <a href="http://tricic.net/" target="_blank" class="btn btn-outline-warning">Live</a>
+                    </div>
                 </div>
             </div>
 
-            <hr id="bonitet-website">
-
-            <div class="row">
+            <!-- Bonitet -->
+            <hr id="bonitet" class="project-seperator">
+            <div class="project row">
                 <div class="project-image col-lg-6">
                     <a data-fancybox="bonitet-gallery" data-caption="Home page" href="images/projects/bonitet.jpg">
                         <img src="images/projects/bonitet.jpg" alt="Bonitet project" class="rounded shadow-bl">
                     </a>
                 </div>
+                
                 <div class="project-info col-lg-6">
                     <h3 class="project-title">Bonitet</h3>
                     <div class="project-type">― Website</div>
+                    <div class="project-tech">
+                        <span class="badge badge-warning">HTML</span>
+                        <span class="badge badge-warning">CSS</span>
+                        <span class="badge badge-warning">JavaScript</span>
+                    </div>
                     <p class="project-description">A company website with contact form.</p>
-                    <p class="project-tech">Built with: HTML, CSS, JS</p>
-                    <a href="https://github.com/tricic/bonitet" target="_blank" class="btn btn-outline-warning">Source</a>
-                    <a href="http://bonitet-cazin.com/" target="_blank" class="btn btn-outline-warning">Live</a>
+                    <div class="project-links">
+                        <a href="https://github.com/tricic/bonitet" target="_blank" class="btn btn-outline-warning">Source</a>
+                        <a href="http://bonitet-cazin.com/" target="_blank" class="btn btn-outline-warning">Live</a>
+                    </div>
                 </div>
             </div>
             
-            <hr id="faktura">
-
-            <div class="row">
+            <!-- Faktura -->
+            <hr id="faktura" class="project-seperator">
+            <div class="project row">
                 <div class="project-image col-lg-6">
                     <a data-fancybox="faktura-gallery" data-caption="Overview of the existing invoice" href="images/projects/faktura-1.jpg">
                         <img src="images/projects/faktura-1.jpg" alt="Faktura project" class="rounded shadow-bl">
@@ -329,11 +373,16 @@
                         <img src="images/projects/faktura-3.jpg" alt="Faktura project" class="rounded shadow-bl">
                     </a>
                 </div>
+                
                 <div class="project-info col-lg-6">
                     <h3 class="project-title">Faktura (In development)</h3>
                     <div class="project-type">― Web application</div>
+                    <div class="project-tech">
+                        <span class="badge badge-warning">Laravel</span>
+                        <span class="badge badge-warning">Bootstrap</span>
+                        <span class="badge badge-warning">jQuery</span>
+                    </div>
                     <p class="project-description">An invoicing system currently under development. More&nbsp;info coming soon.</p>
-                    <p class="project-tech">Built with: Laravel, Bootstrap, jQuery</p>
                 </div>
             </div>
         </div>
@@ -349,7 +398,7 @@
     <!-- Contact Form -->
     <section id="contact">
         <div class="container py-5">
-            <h2><span class="heading-number">04.</span> Contact Me</h2>
+            <h2 class="mb-4"><span class="heading-number">04.</span> Contact Me</h2>
             <div class="row">
                 <!-- Forms -->
                 <div class="col-lg-6">
