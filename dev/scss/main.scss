@@ -11,7 +11,7 @@ $navigation-bg-color: #674172;
 $navigation-hover-color: #754b82;
 $about-bg-color: $body-bg-color;
 $skills-bg-color: #4B6946;
-$work-bg-color: #3b6a92;
+$projects-bg-color: #3b6a92;
 $contact-placeholder-color: lightgray;
 $contact-button-hover-color: #34495e;
 $footer-bg-color: #674172;
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 @import "footer";
 @import "hero";
 @import "navigation";
+@import "projects";
 @import "quotes";
 @import "skills";
 @import "utils";
-@import "work";
