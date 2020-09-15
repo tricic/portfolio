@@ -1,7 +1,28 @@
 #about {
     background-color: $about-bg-color;
 
-    #about-image img {
-        max-width: 250px;
+    a {
+        color: unset;
+    }
+
+    p {
+        a {
+            text-decoration: underline;
+        }
+    }
+
+    .profile-img {
+        max-width: 220px;
+    }
+
+    .social a {
+        font-family: 'Russo One';
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none !important;
+    }
+
+    .social a:hover {
+        color: white;
     }
 }

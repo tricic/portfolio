@@ -1,1 +1,182 @@
-html{scroll-behavior:smooth;font-size:20px}body{background-color:#34495e;color:lightgray;font-family:'Open Sans', sans-serif}h1,h2,h3,h4,h5,h6{font-family:'Russo One', 'Open Sans', sans-serif}.heading-number{font-size:0.8em}#about{background-color:#34495e}#about #about-image img{max-width:250px}#contact{background:url("images/hero.jpg") center center no-repeat}#contact i{font-size:200px}#contact form ::-webkit-input-placeholder{color:#d3d3d3;font-weight:100}#contact form :-ms-input-placeholder{color:#d3d3d3;font-weight:100}#contact form ::-moz-placeholder{color:#d3d3d3;opacity:1;font-weight:100}#contact form :-moz-placeholder{color:#d3d3d3;opacity:1;font-weight:100}#contact form label{font-weight:bold}#contact form input,#contact form textarea{background-color:transparent;border-color:white;border-width:3px;color:white;font-weight:bold}#contact form input[type=submit]:hover{cursor:pointer}#contact form input[type=submit]:hover:hover{background-color:#34495e}#footer{background-color:#674172;-webkit-box-shadow:inset 0px 10px 30px 0px rgba(0,0,0,0.8);-moz-box-shadow:inset 0px 10px 30px 0px rgba(0,0,0,0.8);box-shadow:inset 0px 10px 30px 0px rgba(0,0,0,0.8)}#footer a{color:white;font-size:1.3rem;margin-right:.3rem}#footer a:hover{color:white;text-decoration:none}#hero{background:center bottom no-repeat;background-image:url("images/hero.jpg")}@media screen and (min-width: 1921px){#hero{background-size:100%}}#hero .container{padding-top:200px;padding-bottom:200px;text-align:center}@media screen and (max-width: 767px){#hero .container{padding-top:150px;padding-bottom:100px}}#hero h1{font-family:'Russo One', sans-serif;font-size:50px;color:lightgray;border-bottom:1px solid gray}@media screen and (max-width: 767px){#hero h1{font-size:45px}}#hero p{font-family:'Indie Flower', cursive;font-size:25px}@media screen and (max-width: 767px){#hero p{font-size:20px}}#hero p span{margin-left:2px}#navbar{font-family:'Russo One', sans-serif;background-color:#674172;padding:0px}#navbar .navbar-brand{font-size:1.8rem}#navbar .nav-item:hover{background-color:#754b82}#navbar .nav-link{font-size:1.2rem}#projects{background-color:#3b6a92}#projects hr{background-color:#9DA5A6}#projects .project-image img{width:100%;height:320px;object-fit:cover}@media screen and (max-width: 991px){#projects .project-image{margin-bottom:1rem}}#projects .project-seperator{margin:3rem 0}#projects .project-tech{margin-top:.5rem;margin-bottom:.5rem}#projects .project-title{margin-bottom:0}#projects .project-links a{font-size:.75em;padding-top:3px;padding-bottom:3px;text-transform:uppercase}.quote{font-family:'Indie Flower', sans-serif;font-size:1.2rem}.quote q{font-style:italic}#quote1{background-color:sienna}#quote2{background-color:#c0392b}#quote3{background-color:#7E4C2B}#skills{background-color:#4B6946}#skills h5{margin:0}#skills i{font-size:50px;margin:10px}#skills #skills-icons{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.shadow-br{-webkit-box-shadow:16px 16px 16px rgba(0,0,0,0.16);box-shadow:16px 16px 16px rgba(0,0,0,0.16)}.shadow-bl{-webkit-box-shadow:-16px 16px 16px rgba(0,0,0,0.16);box-shadow:-16px 16px 16px rgba(0,0,0,0.16)}
+html {
+  scroll-behavior: smooth;
+  font-size: 20px; }
+
+body {
+  background-color: #34495e;
+  color: lightgray;
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Russo One', 'Open Sans', sans-serif; }
+
+.heading-number {
+  font-size: 0.8em; }
+
+#about {
+  background-color: #34495e; }
+  #about a {
+    color: unset; }
+  #about p a {
+    text-decoration: underline; }
+  #about .profile-img {
+    max-width: 220px; }
+  #about .social a {
+    font-family: 'Russo One';
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none !important; }
+  #about .social a:hover {
+    color: white; }
+
+#contact {
+  background: url("images/hero.jpg") center center no-repeat; }
+  #contact i {
+    font-size: 200px; }
+  #contact form ::-webkit-input-placeholder {
+    /* Chrome */
+    color: lightgray;
+    font-weight: 100; }
+  #contact form :-ms-input-placeholder {
+    /* IE 10+ */
+    color: lightgray;
+    font-weight: 100; }
+  #contact form ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: lightgray;
+    opacity: 1;
+    font-weight: 100; }
+  #contact form :-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: lightgray;
+    opacity: 1;
+    font-weight: 100; }
+  #contact form label {
+    font-weight: bold; }
+  #contact form input, #contact form textarea {
+    background-color: transparent;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    font-weight: bold; }
+  #contact form input[type=submit]:hover {
+    cursor: pointer; }
+    #contact form input[type=submit]:hover:hover {
+      background-color: #34495e; }
+
+#footer {
+  background-color: #674172;
+  -webkit-box-shadow: inset 0px 10px 30px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: inset 0px 10px 30px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0px 10px 30px 0px rgba(0, 0, 0, 0.8); }
+  #footer a {
+    color: white;
+    font-size: 1.3rem;
+    margin-right: .3rem; }
+    #footer a:hover {
+      color: white;
+      text-decoration: none; }
+
+#hero {
+  background: center bottom no-repeat;
+  background-image: url("images/hero.jpg"); }
+  @media screen and (min-width: 1921px) {
+    #hero {
+      background-size: 100%; } }
+  #hero .container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center; }
+    @media screen and (max-width: 767px) {
+      #hero .container {
+        padding-top: 150px;
+        padding-bottom: 100px; } }
+  #hero h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    color: lightgray;
+    border-bottom: 1px solid gray; }
+    @media screen and (max-width: 767px) {
+      #hero h1 {
+        font-size: 45px; } }
+  #hero p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px; }
+    @media screen and (max-width: 767px) {
+      #hero p {
+        font-size: 20px; } }
+    #hero p span {
+      margin-left: 2px; }
+
+#navbar {
+  font-family: 'Russo One', sans-serif;
+  background-color: #674172;
+  padding: 0px; }
+  #navbar .navbar-brand {
+    font-size: 1.8rem; }
+  #navbar .nav-item:hover {
+    background-color: #754b82; }
+  #navbar .nav-link {
+    font-size: 1.2rem; }
+
+#projects {
+  background-color: #3b6a92; }
+  #projects hr {
+    background-color: #9DA5A6; }
+  #projects .project-image img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover; }
+  @media screen and (max-width: 991px) {
+    #projects .project-image {
+      margin-bottom: 1rem; } }
+  #projects .project-seperator {
+    margin: 3rem 0; }
+  #projects .project-tech {
+    margin-top: .5rem;
+    margin-bottom: .5rem; }
+  #projects .project-title {
+    margin-bottom: 0; }
+  #projects .project-links a {
+    font-size: .75em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase; }
+
+.quote {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 1.2rem; }
+  .quote q {
+    font-style: italic; }
+
+#quote1 {
+  background-color: sienna; }
+
+#quote2 {
+  background-color: #c0392b; }
+
+#quote3 {
+  background-color: #7E4C2B; }
+
+#skills {
+  background-color: #4B6946; }
+  #skills h5 {
+    margin: 0; }
+  #skills i {
+    font-size: 50px;
+    margin: 10px; }
+  #skills #skills-icons {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+.shadow-br {
+  -webkit-box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.16);
+  box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.16); }
+
+.shadow-bl {
+  -webkit-box-shadow: -16px 16px 16px rgba(0, 0, 0, 0.16);
+  box-shadow: -16px 16px 16px rgba(0, 0, 0, 0.16); }
